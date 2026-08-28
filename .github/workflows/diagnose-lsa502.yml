@@ -1,0 +1,23 @@
+name: Diagnose LSA-502
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 h5py
+      - name: Inspect latest real LSA-502 ListProduct
+        env:
+          LSASAF_USERNAME: ${{ secrets.LSASAF_USERNAME }}
+          LSASAF_PASSWORD: ${{ secrets.LSASAF_PASSWORD }}
+        run: python diagnose_lsa502.py
