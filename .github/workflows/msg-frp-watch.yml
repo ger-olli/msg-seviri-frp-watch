@@ -36,5 +36,6 @@ jobs:
             echo "No data changes"
           else
             git commit -m "Update MSG SEVIRI LSA-502 hotspot status"
+            git pull --rebase origin main
             git push
           fi
