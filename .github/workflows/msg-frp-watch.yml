@@ -25,6 +25,8 @@ jobs:
           LSASAF_USERNAME: ${{ secrets.LSASAF_USERNAME }}
           LSASAF_PASSWORD: ${{ secrets.LSASAF_PASSWORD }}
         run: python msg_watch.py
+      - name: Build persistent 24h event window
+        run: python build_recent_events.py --events data/msg_events.jsonl --output data/msg_recent_events.json --hours 24
       - name: Commit status data
         run: |
           git config user.name "github-actions[bot]"
