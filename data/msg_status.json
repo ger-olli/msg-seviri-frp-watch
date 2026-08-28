@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-08-28T20:37:17.091364+00:00",
+  "checked_at_utc": "2026-08-28T20:47:18.896401+00:00",
   "source": "LSA SAF MSG/SEVIRI FRP-PIXEL",
   "product": "LSA-502",
   "polygon": [
@@ -26,10 +26,10 @@
   ],
   "processed_files": [
     {
-      "product_file": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608282000",
-      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/28/HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608282000",
-      "record_count_full_msg_disk": 266,
-      "measurement_time_utc": "2026-08-28T20:00:00+00:00",
+      "product_file": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608282015",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/28/HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608282015",
+      "record_count_full_msg_disk": 256,
+      "measurement_time_utc": "2026-08-28T20:15:00+00:00",
       "satellite": [
         "MSG3",
         "-",
@@ -55,7 +55,7 @@
         "-"
       ],
       "overall_quality_flag": "OK",
-      "nominal_product_time": "20260828201741",
+      "nominal_product_time": "20260828203215",
       "dataset_mapping": {
         "latitude_dataset": "LATITUDE",
         "longitude_dataset": "LONGITUDE",
@@ -71,8 +71,8 @@
   "new_hotspots": [],
   "new_hotspot_count": 0,
   "errors": [],
-  "files_available": 273,
-  "last_processed_file_before_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608281945",
+  "files_available": 274,
+  "last_processed_file_before_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608282000",
   "pending_file_count": 1,
-  "last_processed_file_after_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608282000"
+  "last_processed_file_after_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608282015"
 }
