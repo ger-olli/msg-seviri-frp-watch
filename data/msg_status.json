@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-08-29T00:27:15.241666+00:00",
+  "checked_at_utc": "2026-08-29T00:37:16.148321+00:00",
   "source": "LSA SAF MSG/SEVIRI FRP-PIXEL",
   "product": "LSA-502",
   "polygon": [
@@ -24,18 +24,97 @@
       44.83812
     ]
   ],
-  "processed_files": [],
+  "processed_files": [
+    {
+      "product_file": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608282345",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/28/HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608282345",
+      "record_count_full_msg_disk": 198,
+      "measurement_time_utc": "2026-08-28T23:45:00+00:00",
+      "satellite": [
+        "MSG3",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "instrument": [
+        "SEVI",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "overall_quality_flag": "OK",
+      "nominal_product_time": "20260829000159",
+      "dataset_mapping": {
+        "latitude_dataset": "LATITUDE",
+        "longitude_dataset": "LONGITUDE",
+        "frp_dataset": "FRP",
+        "frp_uncertainty_dataset": "FRP_UNCERTAINTY",
+        "confidence_dataset": "FIRE_CONFIDENCE",
+        "pixel_size_dataset": "PIXEL_SIZE"
+      },
+      "download_bytes": 98656,
+      "inside_polygon": 0
+    },
+    {
+      "product_file": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608290000",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/29/HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608290000",
+      "record_count_full_msg_disk": 192,
+      "measurement_time_utc": "2026-08-29T00:00:00+00:00",
+      "satellite": [
+        "MSG3",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "instrument": [
+        "SEVI",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      "overall_quality_flag": "OK",
+      "nominal_product_time": "20260829002001",
+      "dataset_mapping": {
+        "latitude_dataset": "LATITUDE",
+        "longitude_dataset": "LONGITUDE",
+        "frp_dataset": "FRP",
+        "frp_uncertainty_dataset": "FRP_UNCERTAINTY",
+        "confidence_dataset": "FIRE_CONFIDENCE",
+        "pixel_size_dataset": "PIXEL_SIZE"
+      },
+      "download_bytes": 98656,
+      "inside_polygon": 0
+    }
+  ],
   "new_hotspots": [],
   "new_hotspot_count": 0,
   "errors": [],
-  "listing_warnings": [
-    {
-      "day": "2026-08-29",
-      "error": "404 Client Error: Not Found for url: https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/29/"
-    }
-  ],
-  "files_available": 191,
+  "files_available": 193,
   "last_processed_file_before_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608282330",
-  "pending_file_count": 0,
-  "last_processed_file_after_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608282330"
+  "pending_file_count": 2,
+  "last_processed_file_after_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608290000"
 }
