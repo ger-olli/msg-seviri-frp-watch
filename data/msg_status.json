@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-08-29T11:37:13.553741+00:00",
+  "checked_at_utc": "2026-08-29T11:47:15.849862+00:00",
   "source": "LSA SAF MSG/SEVIRI FRP-PIXEL",
   "product": "LSA-502",
   "polygon": [
@@ -26,10 +26,10 @@
   ],
   "processed_files": [
     {
-      "product_file": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608291100",
-      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/29/HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608291100",
-      "record_count_full_msg_disk": 1065,
-      "measurement_time_utc": "2026-08-29T11:00:00+00:00",
+      "product_file": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608291115",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/29/HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608291115",
+      "record_count_full_msg_disk": 1043,
+      "measurement_time_utc": "2026-08-29T11:15:00+00:00",
       "satellite": [
         "MSG3",
         "-",
@@ -55,7 +55,7 @@
         "-"
       ],
       "overall_quality_flag": "OK",
-      "nominal_product_time": "20260829111742",
+      "nominal_product_time": "20260829113216",
       "dataset_mapping": {
         "latitude_dataset": "LATITUDE",
         "longitude_dataset": "LONGITUDE",
@@ -64,15 +64,15 @@
         "confidence_dataset": "FIRE_CONFIDENCE",
         "pixel_size_dataset": "PIXEL_SIZE"
       },
-      "download_bytes": 131397,
+      "download_bytes": 131313,
       "inside_polygon": 0
     }
   ],
   "new_hotspots": [],
   "new_hotspot_count": 0,
   "errors": [],
-  "files_available": 237,
-  "last_processed_file_before_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608291045",
+  "files_available": 238,
+  "last_processed_file_before_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608291100",
   "pending_file_count": 1,
-  "last_processed_file_after_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608291100"
+  "last_processed_file_after_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608291115"
 }
