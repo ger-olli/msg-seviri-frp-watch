@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-08-29T03:47:15.517312+00:00",
+  "checked_at_utc": "2026-08-29T03:57:12.907575+00:00",
   "source": "LSA SAF MSG/SEVIRI FRP-PIXEL",
   "product": "LSA-502",
   "polygon": [
@@ -24,55 +24,26 @@
       44.83812
     ]
   ],
-  "processed_files": [
-    {
-      "product_file": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608290315",
-      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/29/HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608290315",
-      "record_count_full_msg_disk": 103,
-      "measurement_time_utc": "2026-08-29T03:15:00+00:00",
-      "satellite": [
-        "MSG3",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-"
-      ],
-      "instrument": [
-        "SEVI",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-",
-        "-"
-      ],
-      "overall_quality_flag": "OK",
-      "nominal_product_time": "20260829033216",
-      "dataset_mapping": {
-        "latitude_dataset": "LATITUDE",
-        "longitude_dataset": "LONGITUDE",
-        "frp_dataset": "FRP",
-        "frp_uncertainty_dataset": "FRP_UNCERTAINTY",
-        "confidence_dataset": "FIRE_CONFIDENCE",
-        "pixel_size_dataset": "PIXEL_SIZE"
-      },
-      "download_bytes": 94759,
-      "inside_polygon": 0
-    }
-  ],
+  "processed_files": [],
   "new_hotspots": [],
   "new_hotspot_count": 0,
-  "errors": [],
-  "files_available": 206,
-  "last_processed_file_before_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608290300",
-  "pending_file_count": 1,
-  "last_processed_file_after_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608290315"
+  "errors": [
+    {
+      "general": "No LSA-502 ListProduct found in the last 3 UTC days"
+    }
+  ],
+  "listing_warnings": [
+    {
+      "day": "2026-08-27",
+      "error": "403 Client Error: Forbidden for url: https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/27/"
+    },
+    {
+      "day": "2026-08-28",
+      "error": "403 Client Error: Forbidden for url: https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/28/"
+    },
+    {
+      "day": "2026-08-29",
+      "error": "403 Client Error: Forbidden for url: https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/29/"
+    }
+  ]
 }
