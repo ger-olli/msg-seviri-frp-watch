@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-08-30T06:37:12.657677+00:00",
+  "checked_at_utc": "2026-08-30T06:47:17.042408+00:00",
   "source": "LSA SAF MSG/SEVIRI FRP-PIXEL",
   "product": "LSA-502",
   "polygon": [
@@ -26,10 +26,10 @@
   ],
   "processed_files": [
     {
-      "product_file": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608300600",
-      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/30/HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608300600",
-      "record_count_full_msg_disk": 48,
-      "measurement_time_utc": "2026-08-30T06:00:00+00:00",
+      "product_file": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608300615",
+      "product_url": "https://datalsasaf.lsasvcs.ipma.pt/PRODUCTS/MSG/FRP-PIXEL/HDF5/2026/08/30/HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608300615",
+      "record_count_full_msg_disk": 67,
+      "measurement_time_utc": "2026-08-30T06:15:00+00:00",
       "satellite": [
         "MSG3",
         "-",
@@ -55,7 +55,7 @@
         "-"
       ],
       "overall_quality_flag": "OK",
-      "nominal_product_time": "20260830061732",
+      "nominal_product_time": "20260830063204",
       "dataset_mapping": {
         "latitude_dataset": "LATITUDE",
         "longitude_dataset": "LONGITUDE",
@@ -64,15 +64,15 @@
         "confidence_dataset": "FIRE_CONFIDENCE",
         "pixel_size_dataset": "PIXEL_SIZE"
       },
-      "download_bytes": 92619,
+      "download_bytes": 94560,
       "inside_polygon": 0
     }
   ],
   "new_hotspots": [],
   "new_hotspot_count": 0,
   "errors": [],
-  "files_available": 217,
-  "last_processed_file_before_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608300545",
+  "files_available": 218,
+  "last_processed_file_before_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608300600",
   "pending_file_count": 1,
-  "last_processed_file_after_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608300600"
+  "last_processed_file_after_run": "HDF5_LSASAF_MSG_FRP-PIXEL-ListProduct_MSG-Disk_202608300615"
 }
